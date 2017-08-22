@@ -51,7 +51,7 @@ topic.less
         }
     }
 
-当 ``topic.less`` 从主题 ``nodebb-theme-vanilla`` 导入是，这些样式会自动整合到你的主题中。
+当 ``topic.less`` 从主题 ``nodebb-theme-vanilla`` 导入时，这些样式会自动整合到你的主题中。
 
 **重要**：如果你依赖别的主题，确认你的主题在 ``package.json`` 中指定依赖关系。例如，上面的例子中，我们依赖 ``nodebb-theme-vanilla``，我们应该在 ``package.json`` 中显式的添加依赖关系：
 
